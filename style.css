@@ -1,0 +1,88 @@
+.teja:hover{
+  background-color: dodgerblue;
+  color: red;
+  font-size: 20px;
+
+}
+.ex{
+  display: flex;
+  flex-wrap: wrap;
+}
+img{
+  width: 150px;
+}
+.teja{
+  text-decoration: none;
+  border:5px double black;
+  font-style: oblique;
+
+ padding: 30px;
+  margin: 5px;
+  text-align: center;
+  color: dodgerblue;
+
+}
+@media only screen and (max-width:425px) {
+  .teja{
+    text-decoration: none;
+    border:5px double black;
+    font-style: oblique;
+
+   padding: 30px;
+    margin: 5px;
+    text-align: center;
+    color: dodgerblue;
+
+
+  }
+  .ex{
+    display: flex;
+  flex-direction: column;
+  }
+
+}
+@media only screen and (min-width:425px) and (max-width:760px) {
+  .teja{
+    text-decoration: none;
+    border:5px double black;
+    font-style: oblique;
+       padding: 30px;
+    margin: 5px;
+    text-align: center;
+    color: dodgerblue;
+
+
+  }
+  .ex{
+    display: flex;
+  flex-direction: column-reverse;
+  }
+}
+@media only screen and (min-width:760px)and (max-width:1024px) {
+  .teja{
+    text-decoration: none;
+    border:5px double black;
+    font-style: oblique;
+
+   padding: 30px;
+    margin: 5px;
+    text-align: center;
+    color: dodgerblue;
+
+  }
+  .ex{
+    display: flex;
+  flex-direction: row-reverse;
+  }
+}
+@media only screen and (min-width:425px) {
+  .ex{
+    flex-wrap: wrap;
+    background-color: #ffcc00;
+    justify-content: center;
+  }
+
+}
+img:hover{
+  border-radius: 50%;
+}
