@@ -1,8 +1,11 @@
 .teja:hover{
   background-color: dodgerblue;
   color: red;
-  font-size: 20px;
+  font-size: 30px;
 
+}
+h2{
+  font-size: 40px;
 }
 .ex{
   display: flex;
@@ -15,7 +18,7 @@ img{
   text-decoration: none;
   border:5px double black;
   font-style: oblique;
-
+  background-color: yellow;
  padding: 30px;
   margin: 5px;
   text-align: center;
@@ -78,7 +81,7 @@ img{
 @media only screen and (min-width:425px) {
   .ex{
     flex-wrap: wrap;
-    background-color: #ffcc00;
+
     justify-content: center;
   }
 
